@@ -1,0 +1,25 @@
+{
+  "name": "nexus-discord-platform",
+  "version": "0.4.0",
+  "private": true,
+  "description": "NEXUS Discord staff and community management bot with API and local CDN",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "register": "node src/register-commands.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.2.0",
+    "cors": "^2.8.5",
+    "discord.js": "^14.22.1",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.0.1",
+    "helmet": "^8.1.0",
+    "multer": "^2.0.2"
+  }
+}
